@@ -1,0 +1,15 @@
+@import './variable';
+@import './mixins';
+@import './common';
+@import './basic-settings';
+
+//pages
+@import './pages/home';
+@import './pages/about-me';
+@import './pages/blog';
+@import './pages/contact';
+
+.home-banner {
+    color: $color-brand;
+    background: red($color: #000000)
+}
