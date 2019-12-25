@@ -1,0 +1,22 @@
+.intro {
+    margin: 120px 0;
+
+    &__title {
+        font-size: $section-title;
+    }
+
+    &__title--bold {
+        font-weight: bold;
+        color: $color-brand;
+    }
+
+    &__title--bold::after {
+        content: "__";
+
+    }
+
+    &__para {
+        font-size: $regular-text;
+        margin: 20px 0;
+    }
+}

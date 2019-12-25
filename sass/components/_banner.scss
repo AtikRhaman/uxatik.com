@@ -1,0 +1,21 @@
+.banner {
+    padding-top: 10%;
+
+    &__title {
+        font-size: $banner-title;
+    }
+
+    &__title--bold {
+        font-size: $banner-title;
+        color: $color-brand;
+        font-weight: bolder;
+    }
+
+    &__text {
+        font-size: $regular-text;
+        margin: 20px 0;
+    }
+    &__btn {
+        margin: 20px 0 70px 0;
+    }
+}

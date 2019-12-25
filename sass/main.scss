@@ -1,15 +1,20 @@
 @import './variable';
 @import './mixins';
 @import './common';
-@import './basic-settings';
 
+//components
+@import './components/nav';
+@import './components/banner';
+@import './components/button';
+@import './components/intro';
+@import './components/portfolio';
+@import './components/form';
+@import './components/footer';
 //pages
 @import './pages/home';
 @import './pages/about-me';
 @import './pages/blog';
 @import './pages/contact';
 
-.home-banner {
-    color: $color-brand;
-    background: red($color: #000000)
-}
+//section
+@import './section'

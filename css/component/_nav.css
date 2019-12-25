@@ -1,0 +1,11 @@
+.header {
+  background: red;
+  height: 300px; }
+
+.nav-bar {
+  background: green;
+  height: 30px; }
+  .nav-bar__logo {
+    background: red; }
+
+

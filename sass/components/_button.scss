@@ -1,0 +1,18 @@
+.button {
+    padding: 10px 40px;
+    margin: 20px 0;
+    background: $color-white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: $color-brand;
+    border: 1px solid $color-black;
+    text-align: center;
+    display: inline-block;
+}
+
+.button:hover {
+    background: $color-brand;
+    color: $color-white;
+    border: 1px solid $color-brand;
+}
