@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to uxatik.com</title>
+    <link rel="stylesheet" href="./css/_basic-settings.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/_basic-settings.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
@@ -109,6 +109,10 @@
                     <div class="portfolio">
                         <div class="portfolio__item">
                             <img src="./img/portfolio/digitalWallet.jpg" alt="ux">
+                            <div class="portfolio__item-hover">
+                                <h3 class="">UX Design</h3>
+                                <p class="icon">arrow</p>
+                            </div>
                         </div>
                         <div class="portfolio__item">
                             <img src="./img/portfolio/digitalWallet.jpg" alt="ux">
@@ -140,30 +144,40 @@
             <section class="contact-section">
                 <div class="container">
                     <div class="contact">
-                        <div class="intro">
-                            <h1 class="intro__title">Say <span class="intro__title--bold">Hello</span>
-                            </h1>
-                            <p class="intro__para">I would love to talk and learn more about how I can help you!
-                                </br></p>
-                            <p class="intro__para">+358465657634
-                                </br></p>
-                            <p class="intro__para">atikur.ux@gmail.com
-                                </br></p>
+                        <div class="contact__item">
+                            <div class="intro">
+                                <h1 class="intro__title">Say <span class="intro__title--bold">Hello</span>
+                                </h1>
+                                <p class="intro__para">I would love to talk and learn more about how I can help you!
+                                    </br></p>
+                                <p class="intro__para">+358465657634
+                                    </br></p>
+                                <p class="intro__para">atikur.ux@gmail.com
+                                    </br></p>
+                            </div>
                         </div>
-                        <div class="form">
-                            <form action="" method="">
-                                <div class="form__item">
-                                    <input type="name" placeholder="Name" required minlength="2" maxlength="15"
-                                        pattern="[]">
-                                    <input type="email" placeholder="Email" required minlength="2" maxlength="15"
-                                        pattern="[]">
+                        <div class="contact__item">
+                            <div class="form-content">
+                                <div class="form ">
+                                    <form action="" method="">
+                                        <div class="form__item">
+                                            <input type="name" placeholder="Name" required minlength="2" maxlength="15"
+                                                pattern="[]">
+                                        </div>
+                                        <div class="form__item">
+                                            <input type="email" placeholder="Email" required minlength="2"
+                                                maxlength="15" pattern="[]">
+                                        </div>
+                                        <div class="form__item">
+                                            <input type="message" placeholder="Message" required minlength="2"
+                                                maxlength="15" pattern="[]">
+                                        </div>
+                                        <div class="form__item">
+                                            <div class="button">Send</div>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="form__item">
-                                    <input type="message" placeholder="Message" required minlength="2" maxlength="15"
-                                        pattern="[]">
-                                </div>
-                                <div class="button">Send</div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>

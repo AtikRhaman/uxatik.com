@@ -68,7 +68,7 @@ p {
 
 .container {
   max-width: rem(1350px);
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
   height: 100%;
 }

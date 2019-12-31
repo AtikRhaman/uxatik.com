@@ -1,5 +1,4 @@
 .intro {
-    margin: 120px 0;
 
     &__title {
         font-size: $section-title;
@@ -8,15 +7,27 @@
     &__title--bold {
         font-weight: bold;
         color: $color-brand;
+        position: relative;
+        text-transform: uppercase;
     }
 
     &__title--bold::after {
-        content: "__";
-
+        content: " ";
+        position: absolute;
+        width: 68px;
+        height: 2px;
+        background: $color-black;
+        bottom: 25%;
+        left: 110%;
     }
 
     &__para {
         font-size: $regular-text;
         margin: 20px 0;
+        line-height: 40px;
+    }
+
+    &--contact {
+        width: 50%;
     }
 }
