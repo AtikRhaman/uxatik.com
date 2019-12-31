@@ -1,5 +1,6 @@
-//banner
-.banner {
+.project-details {
+    display: flex;
+    
     &__title {
         font-size: $banner-title;
         font-weight: 900;

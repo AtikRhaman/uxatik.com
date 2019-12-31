@@ -195,6 +195,33 @@
     background: none;
     width: 100%; }
 
+.project-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .project-details__title {
+    font-size: 50px;
+    font-weight: 900; }
+  .project-details__title--bold {
+    font-size: 50px;
+    color: #790BB5;
+    font-weight: 900 !important;
+    position: relative;
+    text-transform: uppercase; }
+  .project-details__title--bold::after {
+    content: " ";
+    position: absolute;
+    width: 68px;
+    height: 2px;
+    background: #10131A;
+    bottom: 25%;
+    left: 110%; }
+  .project-details__text {
+    font-size: 22px;
+    margin: 20px 0; }
+  .project-details__btn {
+    margin: 20px 0 70px 0; }
+
 .header-section {
   background: #ffffff;
   -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
