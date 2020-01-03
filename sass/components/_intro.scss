@@ -1,4 +1,5 @@
 .intro {
+    padding: 26px 0;
 
     &__title {
         font-size: $section-title;
@@ -23,7 +24,6 @@
 
     &__para {
         font-size: $regular-text;
-        margin: 20px 0;
         line-height: 40px;
     }
 
