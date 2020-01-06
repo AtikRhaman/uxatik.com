@@ -237,6 +237,10 @@
 .card-btm-img__img img {
   width: 100%; }
 
+.thank-you__title {
+  color: #790BB5;
+  text-align: center; }
+
 .project-details {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -277,6 +281,10 @@
 .contact-section,
 .banner-section {
   background: #FCFCFC;
+  padding: 120px 0; }
+
+.thank-you-section {
+  background: #FAF0FF;
   padding: 120px 0; }
 
 .process-section {
