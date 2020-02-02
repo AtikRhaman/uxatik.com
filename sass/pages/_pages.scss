@@ -1,0 +1,84 @@
+.project-details,
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-size: $banner-title;
+        font-weight: 900;
+    }
+
+    &__title--bold {
+        font-size: $banner-title;
+        color: $color-brand;
+        font-weight: 900 !important;
+        position: relative;
+        text-transform: uppercase;
+
+    }
+
+    &__title--bold::after {
+        content: " ";
+        position: absolute;
+        width: 68px;
+        height: 2px;
+        background: $color-black;
+        bottom: 25%;
+        left: 110%;
+    }
+
+    &__text {
+        font-size: $regular-text;
+        margin: 20px 0;
+    }
+
+    &__btn {
+        margin: 20px 0 70px 0;
+    }
+
+}
+
+.profile-picture {
+    width: 100%;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.my-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__item {
+        background: $color-light-grey;
+        width: 48%;
+        padding: 20px;
+        margin: 1%;
+    }
+}
+
+.skills-heading {
+    font-size: $sub-title;
+    padding: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px;
+
+        .skills-name {
+            width: 40%;
+        }
+
+        .progressbar {
+            width: 60%;
+        }
+    }
+}
