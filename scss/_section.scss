@@ -4,8 +4,9 @@
     box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.portfolio-section,
+.color-section,
 .role-section,
+<<<<<<< HEAD:sass/_section.scss
 .skill-section .uidesign-section {
     padding: 120px 0;
 }
@@ -15,6 +16,16 @@
 .experince-section {
     background: $color-light-grey;
     padding: 120px 0;
+=======
+.uidesign-section {
+    padding: 0 0 60px 0;
+}
+
+.contact-section,
+.banner-section {
+    background: $color-brand-light;
+    padding: 30px 0;
+>>>>>>> 1316e4fc8fd813d572ea134966eea932deed2af8:scss/_section.scss
 }
 
 .thank-you-section {
@@ -27,5 +38,5 @@
 }
 
 .footer-section {
-    background: $color-black;
+    background: $color-brand;
 }

@@ -1,0 +1,39 @@
+.color-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.color-box {
+    width: 80%;
+    height: 100px;
+    margin: 0;
+    text-align: left;
+    padding: 15px;
+    line-height: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transform: scale(1);
+    transition: transform 0.35s ease-in-out;
+
+    p {
+        color: $color-white;
+        opacity: 70%;
+        font-size: 22px;
+    }
+}
+
+.color-box:hover {
+    transform: scale(1.015);
+}
+
+.copy {
+    background: #fff;
+    color: black;
+}
